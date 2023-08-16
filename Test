@@ -4,7 +4,6 @@
 class HelloWorld {
     public static void main(String[] args) {
         
-    
     String firstName = "Daiane";
     String lastName = "Pugas";
     String gender = "Female";
@@ -12,20 +11,29 @@ class HelloWorld {
     String hight = "5.5";
     String married = "Yes";
     
-  
-    System.out.println(firstName + " " + lastName);
+
     
-    System.out.println(gender);
+    System.out.println ("Personal Information "); 
     
-    System.out.println(age);
+    System.out.println ("First Name: ");
     
-    System.out.println(hight);
     
-    System.out.println(married);
+    System.out.println ("Last Name: ");
     
-    // block of code to be executed if the condition is true
+    System.out.println ("Gender: ");
     
-        if (married == "Yes") {
-        System.out.println ("Spouse Name");
+    System.out.println ("Age: ");
+    
+    System.out.println ("High: ");
+    
+    System.out.println ("Married: ");
+    
+    if (married == "Yes") {
+        System.out.println ("Spouse Name: ");
+        } else {
+            System.out.println ("N/A");
         }
     
+   
+    }
+}

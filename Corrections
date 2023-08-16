@@ -1,0 +1,54 @@
+import java.util.Scanner; 
+
+class DanielDantas {
+  public static void main(String[] args) {
+    Scanner myObj = new Scanner(System.in);
+    String firstName;
+    
+    // Enter username and press Enter
+    System.out.println("First Name: "); 
+    firstName = myObj.nextLine(); 
+     
+    String lastName;
+    
+    
+    System.out.println("Last Name: "); 
+    lastName = myObj.nextLine();   
+    
+    
+    String gender;
+    
+    
+    System.out.println ("Gender: ");
+    gender = myObj.nextLine();
+    
+    
+    int age;
+    
+    
+    System.out.println ("Age: ");
+    age = myObj.nextInt();
+    
+    
+    float hight;
+    
+    
+    System.out.println ("Hight: ");
+    hight = myObj.nextFloat();
+    
+    
+    boolean married;
+    
+    
+    System.out.println ("Married (True/False): ");
+    married = myObj.nextBoolean();
+    
+    
+    if (married == true) {
+    System.out.println ("Spouse Name: ");
+    } else {
+    System.out.println ("Thank You!");
+        }
+    
+  }
+}

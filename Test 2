@@ -1,0 +1,23 @@
+// Online Java Compiler
+// Use this editor to write, compile and run your Java code online
+
+class HelloWorld {
+    public static void main(String[] args) {
+    
+    System.out.println ("Personal Information "); 
+    
+    System.out.println ("First Name: ");
+    
+    
+    System.out.println ("Last Name: ");
+    
+    System.out.println ("Gender: ");
+    
+    System.out.println ("Age : ");
+    
+    System.out.println ("High: ");
+    
+    System.out.println ("Married: ");
+    
+    }
+}

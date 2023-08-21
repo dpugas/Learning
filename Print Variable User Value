@@ -1,0 +1,82 @@
+import java.util.Scanner; // import the Scanner class 
+
+class DanielDantas {
+  public static void main(String[] args) {
+    Scanner myObj = new Scanner(System.in);
+    String firstName;
+    
+    // Enter username and press Enter
+    System.out.println("First Name"); 
+    firstName = myObj.nextLine(); 
+     
+     
+     
+    String lastName;
+    
+    System.out.println("Last Name"); 
+    lastName = myObj.nextLine();   
+    
+    
+    
+    String gender;
+    
+    System.out.println ("Gender");
+    gender = myObj.nextLine();
+    
+    
+    
+    int age;
+    
+    System.out.println ("Age");
+    age = myObj.nextInt();
+    
+
+    
+    float hight;
+    
+    System.out.println ("Hight");
+    hight = myObj.nextFloat();
+    
+    
+    
+    
+    boolean married;
+    
+    
+    System.out.println ("Married (True/False): ");
+    married = myObj.nextBoolean();
+    
+    
+    
+    if (married == true) {
+    System.out.println ("Spouse Name: ");
+    } else {
+    System.out.println ("Thank You!");
+    
+    }
+    
+
+
+
+   
+    myObj.nextLine(); // Consume the newline character
+        
+        System.out.print("Personal Information: ");
+        String userString = myObj.nextLine();
+        
+        // Print the user input values
+        
+        System.out.println("First Name: " + firstName);
+        System.out.println("Last Name: " + lastName);
+        System.out.println("Gender: " + gender);
+        System.out.println("Age: " + age);
+         System.out.println("High: " + hight);
+        System.out.println("Married: " + married);
+        
+    
+       
+        // Don't forget to close the scanner
+        myObj.close();
+    
+  }
+}

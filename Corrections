@@ -8,7 +8,9 @@ class DanielDantas {
     // Enter username and press Enter
     System.out.println("First Name: "); 
     firstName = myObj.nextLine(); 
-     
+
+
+    // use string for text 
     String lastName;
     
     
@@ -22,21 +24,21 @@ class DanielDantas {
     System.out.println ("Gender: ");
     gender = myObj.nextLine();
     
-    
+    // use int for integer numbers
     int age;
     
     
     System.out.println ("Age: ");
     age = myObj.nextInt();
     
-    
+    // use float for fractional numbers
     float hight;
     
     
     System.out.println ("Hight: ");
     hight = myObj.nextFloat();
     
-    
+    // use for true or false questions
     boolean married;
     
     
